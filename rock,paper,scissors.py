@@ -2,9 +2,9 @@ from random import*
 print(""" 
 Welcome to my game, Be careful maybe this be the last time you are life... \U0001f923 \U0001f923 \U0001f923 \U0001f923 
 they are your moves.
- Rock 😎
- Paper 😎
- Scissor 😎
+ Rock \U0001F60E
+ Paper \U0001F60E
+ Scissor \U0001F60E
  ---------------""")
 
 randomMove=randint(1, 3)
