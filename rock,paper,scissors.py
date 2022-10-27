@@ -1,11 +1,11 @@
 from random import *
 print(""" 
-Welcome to my game, Be careful maybe this be the last time you are life... \U0001f923 \U0001f923 \U0001f923 \U0001f923 
-they are your moves.
+Welcome to my game, Be careful maybe this is the last time you are life... \U0001f923 \U0001f923 \U0001f923 \U0001f923 
+they are your moves: 
  Rock \U0001F60E
  Paper \U0001F60E
  Scissor \U0001F60E
- or press exit to end
+ For quit type exit. 
  ---------------""")
 
 randomMove = randint(1, 3)
@@ -19,7 +19,7 @@ player1_wins = 0
 player2_wins = 0
 win=3
 while player1_wins < win and player2_wins < win:
-    print(f"player_1\U0001f449 {player1_wins} player_2\U0001f449 {player2_wins}")
+    print(f"player_1\U0001f449 {player1_wins} and player_2\U0001f449 {player2_wins}")
 
     player_1 = input("player_1, make your move: ").lower()
     print(f"move of player_2 is {pcMove}")
@@ -51,4 +51,4 @@ while player1_wins < win and player2_wins < win:
             player2_wins += 1
     else:
         print("somthing is wrong")
-print(f"Final: player_1\U0001f449 {player1_wins} player_2\U0001f449 {player2_wins}")
+print(f"Final: player_1\U0001f449 {player1_wins} and player_2\U0001f449 {player2_wins}")
