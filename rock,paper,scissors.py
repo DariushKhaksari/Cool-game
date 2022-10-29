@@ -7,7 +7,7 @@ Paper \U0001F60E
 Scissor \U0001F60E
 For quit type Exit. 
 ---------------""")
-move= ["Rock", "Paper", "Scissors"]
+move= ["Rock", "Paper", "Scissor"]
 computer = move[randint(0,2)]
 player = False
 while player == False:
@@ -23,11 +23,11 @@ while player == False:
         else:
             print("You win")
     elif player == "Paper":
-        if computer == "Scissors":
+        if computer == "Scissor":
             print("computer win")
         else:
             print("You win")
-    elif player == "Scissors":
+    elif player == "Scissor":
         if computer == "Rock":
             print("computer win")
         else:
