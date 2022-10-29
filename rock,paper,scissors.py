@@ -4,10 +4,10 @@ Welcome to my game, Be careful maybe this is the last time you are life... \U000
 they are your moves: 
 Rock \U0001F60E
 Paper \U0001F60E
-Scissor \U0001F60E
+Scissors \U0001F60E
 For quit type Exit. 
 ---------------""")
-move= ["Rock", "Paper", "Scissor"]
+move= ["Rock", "Paper", "Scissors"]
 computer = move[randint(0,2)]
 player = False
 while player == False:
@@ -23,11 +23,11 @@ while player == False:
         else:
             print("You win")
     elif player == "Paper":
-        if computer == "Scissor":
+        if computer == "Scissors":
             print("computer win")
         else:
             print("You win")
-    elif player == "Scissor":
+    elif player == "Scissors":
         if computer == "Rock":
             print("computer win")
         else:
