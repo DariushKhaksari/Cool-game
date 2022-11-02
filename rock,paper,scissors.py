@@ -1,6 +1,6 @@
 from random import *
 print(""" 
-Welcome to my game, Be careful maybe this is the last time you are life... \U0001f923 \U0001f923 \U0001f923 \U0001f923 
+Welcome to my game, Be careful maybe this is the last time you are alive... \U0001f923 \U0001f923 \U0001f923 \U0001f923 
 they are your moves: 
 Rock \U0001F60E
 Paper \U0001F60E
@@ -9,8 +9,8 @@ For quit type Exit.
 ---------------""")
 move= ["Rock", "Paper", "Scissors"]
 computer = move[randint(0,2)]
-player = False
-while player == False:
+player = True
+while player == True:
     
     player = input("enter your moves: ")
     if player=="Exit":
@@ -34,5 +34,5 @@ while player == False:
             print("You win")
     else:
         print("wrong spell")
-    player = False
+    player = True
     computer =move[randint(0,2)]
